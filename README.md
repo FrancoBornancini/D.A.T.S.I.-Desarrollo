@@ -171,4 +171,14 @@ Ej:
 > export TOBA_INSTALACION_DIR=/siu/framework/instalacion
 > export PATH="$TOBA_DIR/bin:$PATH"
 
-`chown www-data /siu/ -R`
+**Cambiar permisos usuario/apache2** (Recomendado en Desarrollo)
+
+`nano /etc/apache2/apache2.conf`
+
+Ej:
+> #User ${APACHE_RUN_USER}
+> #Group ${APACHE_RUN_GROUP}
+> #User Tu_Usuario
+> #User Tu_Usuario
+
+`chown Tu_Usuario /Directorio_Toba/ -R`
