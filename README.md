@@ -182,3 +182,4 @@ Ej:
 > #User Tu_Usuario
 
 `chown Tu_Usuario /Directorio_Toba/ -R`
+
