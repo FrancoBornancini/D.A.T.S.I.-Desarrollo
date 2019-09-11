@@ -177,8 +177,11 @@ Ej:
 
 Ej:
 > #User ${APACHE_RUN_USER}
+
 > #Group ${APACHE_RUN_GROUP}
+
 > #User Tu_Usuario
+
 > #User Tu_Usuario
 
 `chown Tu_Usuario /Directorio_Toba/ -R`
