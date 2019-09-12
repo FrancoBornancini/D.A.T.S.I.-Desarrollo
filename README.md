@@ -15,10 +15,6 @@
 
 `apt-get install curl`
 
-**Install npm:**
-
-`apt-get install npm`
-
 **Debian php Repository:**
 [packages.sury.org](https://packages.sury.org/php/README.txt)
 
@@ -83,8 +79,11 @@ _Add Repository_
 
 `curl -sL https://deb.nodesource.com/setup_6.x | bash -`
 
-`apt-get install -y nodejs n`
+`apt-get install nodejs`
 
+**Install npm:**
+
+`apt-get install npm`
 
 **#Development tools for native addons**
 
