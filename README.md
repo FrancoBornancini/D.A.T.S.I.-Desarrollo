@@ -72,7 +72,8 @@ sudo apt update
 - **Salir**
 
 `\q
-`
+
+
 **OR**
 
 `su postgres`
