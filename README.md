@@ -71,13 +71,27 @@ sudo apt update
 
 - **Salir**
 
-`\q`
+`\q
+`
+**OR**
+
+`su postgres`
+
+`psql`
+
+`ALTER USER name [ [ WITH ] option [ ... ] ]`
+
+**where option:**
+
+`PASSWORD 'password'`
 
 **Install Nodejs**
 
 _Add Repository_
 
 `curl -sL https://deb.nodesource.com/setup_6.x | bash -`
+or
+`curl -sL https://deb.nodesource.com/setup_8.x | bash -`
 
 `apt-get install nodejs`
 
