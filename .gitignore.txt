@@ -1,0 +1,6 @@
+# Don't track content of these folders
+vendor/
+proyectos/toba_editor/
+proyectos/toba_referencia/
+proyectos/toba_usuarios/
+
